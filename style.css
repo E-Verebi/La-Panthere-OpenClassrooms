@@ -94,6 +94,8 @@ a:hover {
     right: 0;
 }
 
+
+
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
@@ -448,6 +450,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .mg-lg {
@@ -765,6 +769,11 @@ h4 {
 .brown {
     color: #372C2C!important;
 }
+
+.maintitlecolor {
+color: #F49F80!important;
+}
+
 
 .portfolio-thumb {
     margin-bottom: 24px;
