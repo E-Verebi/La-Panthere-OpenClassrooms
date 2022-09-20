@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+*:focus {
+    border: 2px solid black;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -794,6 +798,11 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #372C2C!important;
+}
+
+.btn-atomic-tangerine:focus {
+    background: #c27956!important;
+    color: #1E1300!important;
 }
 
 .btn-atomic-tangerine:hover {
